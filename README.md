@@ -52,10 +52,10 @@ int main(void)
 | \t | vertical tab |
 | \v | horizontal tab |
 | \  | single backslash escapes the next character |
-| \\ | this prints a backslash |
+| \\\ | this prints a backslash |
 | "  | single double quotation starts or ends a string datatype |
-| \" | this prints a double quotation mark |
+| \\" | this prints a double quotation mark |
 | '  | single quotation mark starts or ends a character datatype |
-| \' | this prints a single quotation mark |
+| \\' | this prints a single quotation mark |
 | %  | this starts a definition of a format specification |
-| \% | this prints a percentage sign |
+| \\% | this prints a percentage sign |
