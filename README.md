@@ -17,7 +17,7 @@ The `printf` function works in different ways which will be highlighted briefly.
 If there were escape characters or format specifiers passed to the printf function, the compiler look out for the type of format and then look out for the data passed for that format type.
 
 
-- Simple Printing
+- [Simple Printing](#simple)
 - Printing Special Characters
 - Prin|ting with Format Specifiers
 - Printing with Width option
@@ -59,3 +59,4 @@ int main(void)
 | \\' | this prints a single quotation mark |
 | %  | this starts a definition of a format specification |
 | \\% | this prints a percentage sign |
+
