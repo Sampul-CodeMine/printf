@@ -17,14 +17,14 @@ The `printf` function works in different ways which will be highlighted briefly.
 If there were escape characters or format specifiers passed to the printf function, the compiler look out for the type of format and then look out for the data passed for that format type.
 
 
-- Simple Printing {#simple}
-- Printing Special Characters {#special}
-- Printing with Format Specifiers {#format}
-- Printing with Width option {#width}
-- Printing Percent {#percent}
-- Printing Floats {#float}
-- Printing Strings{#string}
-- Printing Integers {#integer} etc.
+- Simple Printing
+- Printing Special Characters
+- Printing with Format Specifiers
+- Printing with Width option
+- Printing Percent
+- Printing Floats
+- Printing Strings
+- Printing Integers etc.
 - 
 ### [Simple Printing](#simple)
 
