@@ -1,15 +1,26 @@
 #include "main.h"
 
+/************************* PRINT PERCENT SIGN *************************/
+
 /**
- * print_percent - prints a percent
- * @l: va_list arguments from _printf
- * @f: pointer to the struct flags in which we turn the flags on
- * Return: number of char printed
+ * print_percent - Prints a percent sign
+ * @types: Lista of arguments
+ * @buffer: Buffer array to handle print
+ * @flags:  Calculates active flags
+ * @width: get width.
+ * @precision: Precision specification
+ * @size: Size specifier
+ * Return: Number of chars printed
  */
 
-int print_percent(va_list l, flags_t *f)
+int print_percent(va_list types, char buffer[],
+	int flags, int width, int precision, int size)
 {
-	(void)l;
-	(void)f;
-	return (_putchar('%'));
+	UNUSED(types);
+	UNUSED(buffer);
+	UNUSED(flags);
+	UNUSED(width);
+	UNUSED(precision);
+	UNUSED(size);
+	return (write(1, "%%", 1));
 }
