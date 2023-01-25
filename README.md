@@ -1,6 +1,7 @@
 # `printf` PROJECT &copy; ALX SE PROGRAMME
 
-<img src="https://github.com/BernabasGirma/printf/blob/d68ac31ef3d742436ef3fdcb0e0f47ad1a3e4813/printf.PNG" alt="Custom printf function">
+![Custom printf  Function](https://user-images.githubusercontent.com/93384140/214538423-d7b17d8e-3dcc-4b9e-8041-eba0d1b88bb3.PNG)
+
 
 In the early days of computer programming, developers/software programmers wrote their our modules and functions to perform certain tasks. This made them honoured and fit to be exteemed programmers.
 
