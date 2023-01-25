@@ -75,7 +75,12 @@ gcc -Wall -Werror -Wextra -pedantic *.c
 prototype:
 
 ```c
+// the printf prototype we will be working with
+
 _printf(const char *[FORMAT], ...)
+{
+        ... 
+}
 ```
 
 **FORMAT** refers to a string with any number of specifiers followed by a '`%`'
@@ -88,3 +93,44 @@ like so:
 ```c
 _printf("My name is %s and I am %d years old", "Sampul CodeMine", 29);
 ```
+
+## FORMATED CASES TO BE HANDLED BY OUR CUSTOM `printf` FUNCTION
+
+- Returns the number of characters printed (excluding the null byte used to end output to string).
+- write output to stdout, the standard output stream,
+- `format` : should be able to handle character string and also be able to handle the following format specifiers 
+  - `%c`, 
+  - `%s`, and `
+  - %%`.
+
+- Handle the following conversion specifiers:
+   - `%d`
+   - `%i`
+  
+```c
+#include "main.h"
+
+int main(void)
+{
+        char *name = "Sampul-CodeMine";
+        char init = 'S';
+        int std_count = 0; // the length returned from the standard printf 
+        int cst_count = 0; // the length returned from the custom _printf
+
+        std_count = printf("Sampul-CodeMine");
+        cst_count = _printf("Sampul-CodeMine");
+
+        printf("\nThe total length of %s is %d and my initial is %c. I am %i years old.", name, std_count, init, 30);
+
+        _printf("\nThe total length of %s is %d and my initial is %c. I am %i years old.", name, cst_count, init, 30);
+
+
+        return (0);
+}
+```
+
+Both examples should print
+
+`Sampul-CodeMine`
+
+`The total length of Sampul-CodeMine is 15 and my initial is S. I am 30 years old.`
