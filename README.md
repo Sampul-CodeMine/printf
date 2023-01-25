@@ -121,7 +121,6 @@ int main(void)
         cst_count = _printf("Sampul-CodeMine");
 
         printf("\nThe total length of %s is %d and my initial is %c. I am %i years old.", name, std_count, init, 30);
-
         _printf("\nThe total length of %s is %d and my initial is %c. I am %i years old.", name, cst_count, init, 30);
 
 
