@@ -134,6 +134,6 @@ Both examples should print
 
 `The total length of Sampul-CodeMine is 15 and my initial is S. I am 30 years old.`
 
-and
+---
 
-'BernabasGirma'
+> Written by **Ehigboria Dukeson O.** *(Sampul-CodeMine)* and **Bernabas Girma Eshete** *(BernabasGirma)*.
