@@ -100,8 +100,8 @@ _printf("My name is %s and I am %d years old", "Sampul CodeMine", 29);
 - write output to stdout, the standard output stream,
 - `format` : should be able to handle character string and also be able to handle the following format specifiers 
   - `%c`, 
-  - `%s`, and `
-  - %%`.
+  - `%s`, and
+  - `%%`.
 
 - Handle the following conversion specifiers:
    - `%d`
